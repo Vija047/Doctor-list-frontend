@@ -94,7 +94,7 @@ export default function AddDoctor() {
       };
       
       // Make the POST request to the backend API
-      const response = await axios.post('https://doctor-list-backend-hez6.vercel.app/doctors/add-doctor', formattedData);
+      const response = await axios.post('https://doctor-list-backend-1pv3.vercel.app/doctors/add-doctor', formattedData);
 
       // Check the response status
       if (response.status === 200) {

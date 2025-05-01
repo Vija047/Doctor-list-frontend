@@ -18,7 +18,7 @@ const DoctorList: React.FC = () => {
     const fetchDoctors = async () => {
       setLoading(true);
       try {
-        const response = await axios.get(`https://doctor-list-backend-hez6.vercel.app/list-doctor-with-filter`);
+        const response = await axios.get(`https://doctor-list-backend-1pv3.vercel.app/list-doctor-with-filter`);
         setDoctors(response.data.data);
         setError('');
       } catch (err) {
